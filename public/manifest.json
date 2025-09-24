@@ -1,0 +1,12 @@
+{
+  "name": "Lycée Elite Plus",
+  "short_name": "Elite-Plus",
+  "start_url": "/",
+  "background_color": "#152a6e",
+  "theme_color": "#6c4edb",
+  "display": "standalone",
+  "icons": [
+    { "src": "/icons/crazy1.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/crazy2.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
