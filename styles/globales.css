@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Crazy */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+.animate-fade-in { animation: fadeIn 1s ease-out; }
+.animate-fade-in-delay { animation: fadeIn 2s; }
+.animate-bounce { animation: bounce 1s infinite; }
+
+
+::-webkit-scrollbar { width: 8px; background: #6c4edb22; }
+::-webkit-scrollbar-thumb { background: #152a6e; border-radius: 8px; }
+
+body, html { min-height: 100vh; font-family: 'Inter', sans-serif; }
